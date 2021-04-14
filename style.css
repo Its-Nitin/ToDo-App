@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body {
+  background-color: rgb(204, 197, 185);
+}
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fafafa;
+  box-shadow: 0 2px 8px rgb(0, 0, 0, 0.1);
+  width: 500px;
+  height: auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+h1 {
+  margin: 10px 0px;
+}
+.add-element {
+  margin: 12px 0;
+}
+input {
+  padding: 6px 4px;
+  width: 70%;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 15px;
+}
+button {
+  padding: 10px 25px;
+  background-color: royalblue;
+  border: none;
+  border-radius: 4px;
+  color: #fafafa;
+  font-size: 20px;
+}
+.AllTodoList {
+  height: 450px;
+  overflow-y: auto;
+}
+ul {
+  padding: 15px;
+}
+li {
+  list-style: none;
+  padding: 10px 5px;
+  background-color: white;
+  margin: 12px 0;
+  box-shadow: 0 2px 8px rgb(0, 0, 0, 0.1);
+  border-radius: 3px;
+  transition: 0.4s;
+}
+button:hover{
+    background-color: white;
+    border: 1px solid red;
+    color: black;
+}
+li:hover{
+    background-color: rgb(0, 0, 0, 0.2);
+}
+.checked{
+    text-decoration: line-through;
+    background-color: rgb(0, 0, 0, 0.2);
+
+}
